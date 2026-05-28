@@ -589,7 +589,7 @@ export interface ApiGigGig extends Struct.CollectionTypeSchema {
           localized: true
         }
       }>
-    description: Schema.Attribute.Blocks &
+    description: Schema.Attribute.RichText &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true
