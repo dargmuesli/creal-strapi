@@ -82,7 +82,8 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::event.event",
-      "inversedBy": "gigs"
+      "inversedBy": "gigs",
+      "required": true
     }
   }
 }
