@@ -20,6 +20,13 @@ const GIG_UID = 'api::gig.gig'
 
 module.exports = {
   async up(knex) {
+    // Custom migrations run before Strapi's content-type schema sync, so on
+    // a genuinely fresh install `events`/`gigs` don't exist yet - and there's
+    // nothing to backfill anyway.
+    if (!(await knex.schema.hasTable('events'))) {
+      return
+    }
+
     const legacyEvents = await knex('events')
       .whereNotNull('date_start')
       .whereNotExists(function () {
