@@ -598,7 +598,8 @@ export interface ApiGigGig extends Struct.CollectionTypeSchema {
           localized: true
         }
       }>
-    event: Schema.Attribute.Relation<'manyToOne', 'api::event.event'>
+    event: Schema.Attribute.Relation<'manyToOne', 'api::event.event'> &
+      Schema.Attribute.Required
     image: Schema.Attribute.Media<'files' | 'images'> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
