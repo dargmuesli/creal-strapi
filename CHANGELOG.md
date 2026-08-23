@@ -1,3 +1,13 @@
+## [5.0.0-beta.1](https://github.com/dargmuesli/creal-strapi/compare/4.2.19...5.0.0-beta.1) (2026-08-23)
+
+### ⚠ BREAKING CHANGES
+
+* rename underscore to dash (#153)
+
+### Features
+
+* rename underscore to dash ([#153](https://github.com/dargmuesli/creal-strapi/issues/153)) ([48551c0](https://github.com/dargmuesli/creal-strapi/commit/48551c040610d7f64633af140545020f7b16fe39))
+
 ## [4.2.19](https://github.com/dargmuesli/creal_strapi/compare/4.2.18...4.2.19) (2026-08-21)
 
 ### Bug Fixes
