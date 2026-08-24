@@ -1,25 +1,13 @@
 import type { Core } from '@strapi/strapi'
 import crypto from 'node:crypto'
 
-// Before the Event->Gig model existed, one performance was one `event` row:
-// its own dateStart/dateEnd/location/title/description/url/image fields
-// described it directly, and the frontend rendered them as-is (see
-// `CrEvent.vue` in creal, which still displays an event's own fields
-// whether or not it has gigs). Recurring performances - a festival with
-// several days, a conference happening again next year - were entered as
-// several `event` rows sharing the same title, one carrying the rich
-// details (description/image/url) and the rest bare placeholders for the
-// other times. That's the exact shape the new Gig model was built for:
-// one Event with several Gigs.
+// Before the Event->Gig model existed, one performance was one `event` row: its own dateStart/dateEnd/location/title/description/url/image fields described it directly, and the frontend rendered them as-is (see `CrEvent.vue` in creal, which still displays an event's own fields whether or not it has gigs).
+// Recurring performances, like a festival with several days or a conference happening again next year, were entered as several `event` rows sharing the same title: one row carrying the rich details (description, image, url), and the rest bare placeholders for the other times.
+// That's the exact shape the new Gig model was built for: one Event with several Gigs.
 //
-// This runs in `bootstrap()` rather than as a `database/migrations/*.js`
-// migration because custom migrations execute before Strapi syncs new
-// content-type tables into the schema (see `db.schema.sync()` in
-// `@strapi/core`), so a migration shipped in the same release as the Gig
-// content type can never see `gigs`/`gigs_event_lnk` yet. `bootstrap()`
-// runs after schema sync, so those tables always exist by the time this
-// runs. The `WHERE NOT EXISTS` guard below makes it safe (and cheap) to
-// run on every boot.
+// This runs in `bootstrap()` rather than as a `database/migrations/*.js` migration because custom migrations execute before Strapi syncs new content-type tables into the schema (see `db.schema.sync()` in `@strapi/core`), so a migration shipped in the same release as the Gig content type can never see `gigs`/`gigs_event_lnk` yet.
+// `bootstrap()` runs after schema sync, so those tables always exist by the time this runs.
+// The `WHERE NOT EXISTS` guard below makes it safe (and cheap) to run on every boot.
 
 type Knex = Core.Strapi['db']['connection']
 
