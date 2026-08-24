@@ -1,3 +1,9 @@
+## [5.0.2](https://github.com/dargmuesli/creal-strapi/compare/5.0.1...5.0.2) (2026-08-24)
+
+### Bug Fixes
+
+* **gig:** revert migration ([c6dbdef](https://github.com/dargmuesli/creal-strapi/commit/c6dbdeff550b2c82e5d6457aec817972323d677d))
+
 ## [5.0.1](https://github.com/dargmuesli/creal-strapi/compare/5.0.0...5.0.1) (2026-08-24)
 
 ### Bug Fixes
