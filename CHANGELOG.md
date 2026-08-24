@@ -1,3 +1,9 @@
+## [5.0.1](https://github.com/dargmuesli/creal-strapi/compare/5.0.0...5.0.1) (2026-08-24)
+
+### Bug Fixes
+
+* **gig:** backfill legacy event gigs after schema sync in bootstrap ([17894c6](https://github.com/dargmuesli/creal-strapi/commit/17894c6ba5160ad3d78a5b1e223c8439a684269f))
+
 ## [5.0.0](https://github.com/dargmuesli/creal-strapi/compare/4.2.19...5.0.0) (2026-08-24)
 
 ### ⚠ BREAKING CHANGES
