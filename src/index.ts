@@ -1,6 +1,4 @@
-import type { Core } from '@strapi/strapi'
-
-import { backfillLegacyEventGigs } from './utils/backfill-legacy-event-gigs'
+// import type { Core } from '@strapi/strapi';
 
 export default {
   /**
@@ -18,7 +16,5 @@ export default {
    * This gives you an opportunity to set up your data model,
    * run jobs, or perform some special logic.
    */
-  async bootstrap({ strapi }: { strapi: Core.Strapi }) {
-    await backfillLegacyEventGigs(strapi)
-  },
+  bootstrap(/* { strapi }: { strapi: Core.Strapi } */) {},
 }
