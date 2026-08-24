@@ -1,5 +1,5 @@
 {
-  "author": "Jonas Thelemann <e-mail+dargmuesli/creal_strapi@jonas-thelemann.de>",
+  "author": "Jonas Thelemann <e-mail+dargmuesli/creal-strapi@jonas-thelemann.de>",
   "dependencies": {
     "@babel/core": "8.0.1",
     "@babel/runtime": "8.0.0",
@@ -43,7 +43,7 @@
     "node": ">=18.0.0 <=24.19.0"
   },
   "license": "MIT",
-  "name": "creal_strapi",
+  "name": "creal-strapi",
   "private": true,
   "scripts": {
     "build": "strapi build",
@@ -57,5 +57,5 @@
   "strapi": {
     "uuid": "6cce022b-3a19-4edf-9549-fac432b13db0"
   },
-  "version": "4.2.19"
+  "version": "5.0.0-beta.2"
 }

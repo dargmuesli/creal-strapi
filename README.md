@@ -1,4 +1,4 @@
-[![CI](https://github.com/dargmuesli/creal_strapi/actions/workflows/ci.yml/badge.svg)](https://github.com/dargmuesli/creal_strapi/actions/workflows/ci.yml)
+[![CI](https://github.com/dargmuesli/creal-strapi/actions/workflows/ci.yml/badge.svg)](https://github.com/dargmuesli/creal-strapi/actions/workflows/ci.yml)
 
 # cReal's Strapi
 
