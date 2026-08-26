@@ -40,7 +40,7 @@
     }
   },
   "engines": {
-    "node": ">=18.0.0 <=24.19.0"
+    "node": ">=18.0.0 <=24.20.0"
   },
   "license": "MIT",
   "name": "creal-strapi",
