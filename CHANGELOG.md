@@ -1,3 +1,9 @@
+## [5.0.3](https://github.com/dargmuesli/creal-strapi/compare/5.0.2...5.0.3) (2026-09-01)
+
+### Bug Fixes
+
+* **deps:** bump pnpm to 11.25.0 (GHSA-vx52-2968-3vc6) ([dbdc28d](https://github.com/dargmuesli/creal-strapi/commit/dbdc28d30953043e1be6684274cbf12f3ced19e6))
+
 ## [5.0.2](https://github.com/dargmuesli/creal-strapi/compare/5.0.1...5.0.2) (2026-08-24)
 
 ### Bug Fixes
