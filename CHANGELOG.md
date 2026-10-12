@@ -1,3 +1,9 @@
+## [5.0.8](https://github.com/dargmuesli/creal-strapi/compare/5.0.7...5.0.8) (2026-10-12)
+
+### Bug Fixes
+
+* schedule release ([4ad6839](https://github.com/dargmuesli/creal-strapi/commit/4ad6839bf57fb93056a4c64ebf7dde59feb06707))
+
 ## [5.0.7](https://github.com/dargmuesli/creal-strapi/compare/5.0.6...5.0.7) (2026-10-02)
 
 ### Bug Fixes
