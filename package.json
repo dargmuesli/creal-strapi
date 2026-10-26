@@ -1,8 +1,8 @@
 {
   "author": "Jonas Thelemann <e-mail+dargmuesli/creal-strapi@jonas-thelemann.de>",
   "dependencies": {
-    "@babel/core": "8.0.7",
-    "@babel/runtime": "8.0.7",
+    "@babel/core": "8.0.9",
+    "@babel/runtime": "8.0.8",
     "@codemirror/autocomplete": "6.20.4",
     "@codemirror/language": "6.13.1",
     "@codemirror/lint": "6.9.7",
