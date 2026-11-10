@@ -3,3 +3,7 @@ allowBuilds:
   core-js-pure: false
   esbuild: false
   sharp: true
+overrides:
+  # CVE-2023-54404 (zod) and GHSA-85x2-q946-cp5h et al. (nodemailer); drop once Strapi ships fixed versions
+  nodemailer@10: ^10.0.10
+  zod@4: ^4.6.6
