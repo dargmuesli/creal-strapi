@@ -1,3 +1,10 @@
+## [5.0.12](https://github.com/dargmuesli/creal-strapi/compare/5.0.11...5.0.12) (2026-11-15)
+
+### Bug Fixes
+
+* **deps:** override zod and nodemailer to patched versions ([#159](https://github.com/dargmuesli/creal-strapi/issues/159)) ([921f184](https://github.com/dargmuesli/creal-strapi/commit/921f184d85ea058da6a1babba23da50a712d517e))
+* **deps:** upgrade @strapi/strapi to 5.62.0 ([#160](https://github.com/dargmuesli/creal-strapi/issues/160)) ([70b58f9](https://github.com/dargmuesli/creal-strapi/commit/70b58f9c146c9ea2dec2595d5f60669935dc0d50))
+
 ## [5.0.11](https://github.com/dargmuesli/creal-strapi/compare/5.0.10...5.0.11) (2026-11-06)
 
 ### Bug Fixes
