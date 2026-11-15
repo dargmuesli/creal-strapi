@@ -1,8 +1,8 @@
 {
   "author": "Jonas Thelemann <e-mail+dargmuesli/creal-strapi@jonas-thelemann.de>",
   "dependencies": {
-    "@babel/core": "8.1.0",
-    "@babel/runtime": "8.1.0",
+    "@babel/core": "8.1.2",
+    "@babel/runtime": "8.1.2",
     "@codemirror/autocomplete": "6.20.4",
     "@codemirror/language": "6.13.1",
     "@codemirror/lint": "6.9.7",
@@ -36,7 +36,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.18.0"
+      "version": "12.20.0"
     }
   },
   "engines": {
