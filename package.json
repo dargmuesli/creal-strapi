@@ -12,7 +12,7 @@
     "@codemirror/view": "6.43.15",
     "@lezer/common": "1.5.5",
     "@strapi/plugin-users-permissions": "5.61.1",
-    "@strapi/strapi": "5.61.1",
+    "@strapi/strapi": "5.62.0",
     "@strapi/typescript-utils": "5.61.1",
     "codemirror": "6.0.2",
     "pg": "8.23.1",
