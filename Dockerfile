@@ -10,7 +10,7 @@ ENV CI=true
 
 WORKDIR /srv/app/
 
-RUN npm i -g corepack && corepack enable
+RUN npm i -g pnpm
 
 
 #############
