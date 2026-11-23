@@ -1,3 +1,9 @@
+## [5.0.13](https://github.com/dargmuesli/creal-strapi/compare/5.0.12...5.0.13) (2026-11-23)
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([7f19999](https://github.com/dargmuesli/creal-strapi/commit/7f19999c44600eff1e7885fb73739d1101506d6c))
+
 ## [5.0.12](https://github.com/dargmuesli/creal-strapi/compare/5.0.11...5.0.12) (2026-11-15)
 
 ### Bug Fixes
